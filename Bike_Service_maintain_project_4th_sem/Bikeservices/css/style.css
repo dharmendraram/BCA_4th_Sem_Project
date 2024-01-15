@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --black:#000;
+    --white:#fff;
+    --bg: #555555;
+    --red:#dc3545 ;
+    --green:#90c317;
+}
+body {
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 27px !important;
+    font-weight: 400 !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700 !important;
+  }
+  
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  ul {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  /* navbar section  */
+  .navbar{
+    background-color: var(--bg);
+  }
+
+
+  /* hero section start  */
+  .carousel-item img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+  }
+
+ /* contact us  */
+ .contact i{
+  padding: 9px 11px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 14px;
+  border-radius: 50%;
+ }
+ .contact span{
+  font-size: 14px;
+ }
+
+
+
+
+  /* login section  */
+  .inner-page {
+    background: linear-gradient(rgba(22, 21, 21, 0.878), rgba(14, 14, 14, 0.382)), url(../img/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .form-section .btn {
+    background-color: #90c317 !important;
+    border: 0;
+  }
+  input:focus{
+    box-shadow: none !important;
+  }
+
+
+
+
+
+
+  /* footer section start  */
+
+footer {
+    position: relative;
+    background-color:var(--bg);
+    color: var(--white);
+  }
+  footer .top-link {
+    background-color:var(--red) !important;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 45%;
+  }
+  footer .top-link i {
+    padding: 10px 11px;
+  }
+  footer p {
+    font-weight: bold;
+    position: relative;
+  }
+  footer p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--green);
+    position: absolute;
+    top: 70%;
+    left: 0px;
+  }
+  footer .footer-text a {
+    color: var(--white) !important;
+    line-height: 1.2;
+  }
+  footer .footer-text a:hover {
+    color:var(--white);
+    border-bottom: 1px solid var(--white);
+  }
+  footer .social-icon a {
+    padding: 9px 12px;
+    line-height: 9px !important;
+    border-radius: 50%;
+    background-color:var(--green);
+    font-size: 16px !important;
+    color: var(--white);
+  }
+  footer .social-icon a:hover {
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+  }
+  footer h6 {
+    font-size: 14px !important;
+  }
+
+  footer .text-contact{
+    font-size: 14px;
+  }

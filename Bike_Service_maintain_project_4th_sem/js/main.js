@@ -1,0 +1,11 @@
+$(window).scroll(function()
+{
+   if($(this).scrollTop()>120)
+   {
+        $("nav").addClass('sticky')
+   }
+   else
+   {
+    $("nav").removeClass('sticky')
+   }
+})
